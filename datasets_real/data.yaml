@@ -1,0 +1,15 @@
+train: D:\Informatyka\PyCharmProjects\Traffic_Signs_NN\datasets_real\train\images
+val: D:\Informatyka\PyCharmProjects\Traffic_Signs_NN\datasets_real\valid\images
+test: D:\Informatyka\PyCharmProjects\Traffic_Signs_NN\datasets_real\test\images
+
+nc: 6
+names: ['direction-city', 'information', 'mandatory', 'other', 'prohibitory', 'warning']
+class_weights: [21.6, 1.0, 3.5, 1.65, 1.0, 2.39]
+mosaic: 0.0
+
+roboflow:
+  workspace: to-projekt
+  project: traffic-signs-r6f6c
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/to-projekt/traffic-signs-r6f6c/dataset/1
