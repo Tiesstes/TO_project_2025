@@ -1,0 +1,5 @@
+train: D:\Informatyka\PyCharmProjects\Traffic_Signs_NN\datasets\train
+val: D:\Informatyka\PyCharmProjects\Traffic_Signs_NN\datasets\valid
+
+nc: 4
+names: ['prohibitory', 'danger', 'mandatory', 'other']
